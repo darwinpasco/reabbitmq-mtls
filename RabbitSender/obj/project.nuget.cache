@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "R5yZ+r20peQ=",
+  "success": true,
+  "projectFilePath": "D:\\Test Codes\\RabbitMQ-mTLS\\RabbitSender\\RabbitSender.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dpasco\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\dpasco\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\dpasco\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
