@@ -50,3 +50,4 @@ D:\Test Codes\RabbitMQ-mTLS\RabbitReceiver1\obj\Debug\net7.0\refint\RabbitReceiv
 D:\Test Codes\RabbitMQ-mTLS\RabbitReceiver1\obj\Debug\net7.0\RabbitReceiver1.pdb
 D:\Test Codes\RabbitMQ-mTLS\RabbitReceiver1\obj\Debug\net7.0\RabbitReceiver1.genruntimeconfig.cache
 D:\Test Codes\RabbitMQ-mTLS\RabbitReceiver1\obj\Debug\net7.0\ref\RabbitReceiver1.dll
+D:\Test Codes\RabbitMQ-mTLS\RabbitReceiver1\obj\Debug\net7.0\RabbitReceiver1.sourcelink.json

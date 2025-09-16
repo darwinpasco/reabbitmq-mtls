@@ -50,3 +50,4 @@ D:\Test Codes\RabbitMQ-mTLS\RabbitSender\obj\Debug\net7.0\refint\RabbitSender.dl
 D:\Test Codes\RabbitMQ-mTLS\RabbitSender\obj\Debug\net7.0\RabbitSender.pdb
 D:\Test Codes\RabbitMQ-mTLS\RabbitSender\obj\Debug\net7.0\RabbitSender.genruntimeconfig.cache
 D:\Test Codes\RabbitMQ-mTLS\RabbitSender\obj\Debug\net7.0\ref\RabbitSender.dll
+D:\Test Codes\RabbitMQ-mTLS\RabbitSender\obj\Debug\net7.0\RabbitSender.sourcelink.json

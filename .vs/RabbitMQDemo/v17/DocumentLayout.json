@@ -1,12 +1,53 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Test Codes\\RabbitMQ-mTLS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6070E1F3-39FE-4BF1-82A6-7C4F88E8417D}|RabbitReceiver1\\RabbitReceiver1.csproj|d:\\test codes\\rabbitmq-mtls\\rabbitreceiver1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6070E1F3-39FE-4BF1-82A6-7C4F88E8417D}|RabbitReceiver1\\RabbitReceiver1.csproj|solutionrelative:rabbitreceiver1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04103FCC-16F4-473F-BAF6-E1034A4B5282}|RabbitSender\\RabbitSender.csproj|d:\\test codes\\rabbitmq-mtls\\rabbitsender\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04103FCC-16F4-473F-BAF6-E1034A4B5282}|RabbitSender\\RabbitSender.csproj|solutionrelative:rabbitsender\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Test Codes\\RabbitMQ-mTLS\\RabbitReceiver1\\Program.cs",
+              "RelativeDocumentMoniker": "RabbitReceiver1\\Program.cs",
+              "ToolTip": "D:\\Test Codes\\RabbitMQ-mTLS\\RabbitReceiver1\\Program.cs",
+              "RelativeToolTip": "RabbitReceiver1\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T11:11:17.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Test Codes\\RabbitMQ-mTLS\\RabbitSender\\Program.cs",
+              "RelativeDocumentMoniker": "RabbitSender\\Program.cs",
+              "ToolTip": "D:\\Test Codes\\RabbitMQ-mTLS\\RabbitSender\\Program.cs",
+              "RelativeToolTip": "RabbitSender\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T11:04:17.287Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

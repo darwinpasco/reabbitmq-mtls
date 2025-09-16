@@ -30,24 +30,26 @@ static IConnection CreateTlsConnection()
 
 
 using var conn = CreateTlsConnection();
-using var ch = conn.CreateModel();
-
-string ex = "DemoExchange";
-string rk = "demo-routing-key";
-string q = "DemoQueue";
+using var channel = conn.CreateModel();
 
 
-ch.ExchangeDeclare(ex, ExchangeType.Direct, durable: true, autoDelete: false);
-ch.QueueDeclare(q, durable: true, exclusive: false, autoDelete: false);
-ch.QueueBind(q, ex, rk);
+string exchangeName = "DemoExchange";
+string routingKey = "demo-routing-key";
+string queueName = "DemoQueue";
+
+
+
+channel.ExchangeDeclare(exchangeName, ExchangeType.Direct, durable: true, autoDelete: false);
+channel.QueueDeclare(queueName, durable: true, exclusive: false, autoDelete: false);
+channel.QueueBind(queueName, exchangeName, routingKey);
 
 for (int i = 0; i < 60; i++)
 {
     Console.WriteLine($"Sending Message {i}");
     byte[] body = Encoding.UTF8.GetBytes($"Message #{i}");
-    ch.BasicPublish(ex, rk, basicProperties: null, body);
+    channel.BasicPublish(exchangeName, routingKey, basicProperties: null, body);
     Thread.Sleep(1000);
 }
 
-ch.Close();
+channel.Close();
 
